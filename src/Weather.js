@@ -4,12 +4,11 @@ import axios from "axios";
 export default function Temperature(props) {
   const [temperature, setTemperature] = useState(null);
 
-  function showTemperature(response) {
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=3a94f3778290bfeee61278505dbbe51d&units=metric`;
+  axios.get(url).then((response) => {
     setTemperature(response.data.main.temp);
+  });
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=3a94f3778290bfeee61278505dbbe51d&units=metric`;
-    axios.get(url).then(showTemperature);
-  }
   if (temperature) {
     return (
       <p>
