@@ -1,18 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Weather from "./Weather";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="App">
-      <h1>React AJAX</h1>
-      <Weather city="Sydney" />
-      <Weather city="Paris" />
-      <Weather city="New York" />
-    </div>{" "}
+    <h1>Weather App</h1>
+    <App />
+    <footer>
+      This was coded by
+      <a href="https://github.com/steph-sketch850">Stephanie Rodriguez </a>
+      and open-sourced on
+      <br />
+      <a href="https://github.com/steph-sketch850/create-react-app">Github</a>
+      and hosted on
+      <a href="https://66c67e7b8fbd1e0007278ef8--react-project-wthr.netlify.app/">
+        Netlify
+      </a>
+    </footer>
   </React.StrictMode>
 );
 
