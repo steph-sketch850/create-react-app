@@ -10,12 +10,13 @@ root.render(
     <h1>Weather App</h1>
     <App />
     <footer>
-      This was coded by
-      <a href="https://github.com/steph-sketch850">Stephanie Rodriguez </a>
-      and open-sourced on
-      <br />
-      <a href="https://github.com/steph-sketch850/create-react-app">Github</a>
-      and hosted on
+      This was coded by{" "}
+      <a href="https://github.com/steph-sketch850">Stephanie Rodriguez</a> and
+      open-sourced on <br />
+      <a href="https://github.com/steph-sketch850/create-react-app">
+        Github
+      </a>{" "}
+      and hosted on{" "}
       <a href="https://66c67e7b8fbd1e0007278ef8--react-project-wthr.netlify.app/">
         Netlify
       </a>
