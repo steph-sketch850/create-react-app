@@ -19,3 +19,7 @@ export default function Temperature(props) {
     return <p>Loading temperature for {props.city}..</p>;
   }
 }
+<footer>
+  This project was coded by Stephanie Rodriguez and is open sourced on
+  <a href="https://github.com/steph-sketch850/create-react-app">Github</a>
+</footer>
